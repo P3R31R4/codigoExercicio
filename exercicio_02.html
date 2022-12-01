@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExercicioJS_02</title>
+</head>
+<body>
+    <h1>exercicioJS_02</h1>
+
+    <p>Nome: <span id="nome"></span></p>
+    <p>Descrição: <span id="descricao"></span></p>
+    <p>Frequência: <span id="frequencia"></span></p>
+    <p>Média minima: <span id="mediaminima"></span></p>
+
+    <script>
+        let nome = prompt("Digite o nome da diciplina. ");
+        let descricao = prompt("Digite a descrição da diciplina. ");
+        let frequencia = prompt("Digite a flequência. ");
+        let mediaMinima = "5";
+    
+    
+        document.getElementById("nome").innerHTML = nome 
+        document.getElementById("descricao").innerHTML = descricao 
+        document.getElementById("frequencia").innerHTML = frequencia
+        document.getElementById("mediaminima").innerHTML = mediaMinima
+    </script>
+</body>
+</html>

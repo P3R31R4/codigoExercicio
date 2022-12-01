@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExercicioJS_03</title>
+</head>
+<body>
+    <h1>ExercicioJS_03</h1>
+    <p>Nota_01: <span id="nota1"></span></p>
+    <p>Nota_02: <span id="nota2"></span></p>
+    <p>Nota_03: <span id="nota3"></span></p>
+    <p>Frequência: <span id="frequencia"></span></p>
+
+    <script>
+        let nota01 = prompt("Digite a primeira nota. ");
+        let nota02 = prompt("Digite a segunda nota. ");
+        let nota03 = prompt("Digite a terceira nota. ");
+        let frequencia = prompt("Digite a sua frequência. ");
+
+        document.getElementById("nota1").innerHTML = nota01
+        document.getElementById("nota2").innerHTML = nota02
+        document.getElementById("nota3").innerHTML = nota03
+        document.getElementById("frequencia").innerHTML = frequencia
+    </script>
+</body>
+</html>
